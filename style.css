@@ -1,0 +1,48 @@
+body{
+    font-family: "Space Grotesk", sans-serif;
+    background: #2b2b2b;
+
+}
+
+:root {
+    --all-font: "Space Grotesk", sans-serif;
+    --color-page:#2b2b2b;
+    --color-footer-image:#444444;
+}
+
+/*header da pagina*/
+#header {
+    
+    color: white;
+    display: flex;
+}
+
+#header h1{
+    
+    margin:0;
+    padding: 10px 90px;
+}
+
+#header {
+    display: flex;
+}
+
+#ionicon {
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    right:100px;
+    padding: 15px 90px 0 90px;
+}
+
+#text {
+    width: 890px;
+    color:white;
+    margin: 100px 90px;
+}
+
+#pimg {
+    display: flex;
+    
+}
+

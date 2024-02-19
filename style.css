@@ -1,6 +1,7 @@
 body{
     font-family: "Space Grotesk", sans-serif;
     background: #2b2b2b;
+    height: 1700px;
 
 }
 
@@ -20,11 +21,7 @@ body{
 #header h1{
     
     margin:0;
-    padding: 10px 90px;
-}
-
-#header {
-    display: flex;
+    padding: 20px 90px;
 }
 
 #ionicon {
@@ -32,17 +29,84 @@ body{
     font-size: 30px;
     position: absolute;
     right:100px;
-    padding: 15px 90px 0 90px;
+    padding: 22px 90px 0 90px;
 }
 
 #text {
     width: 890px;
     color:white;
-    margin: 100px 90px;
+    margin: 100px 80px 0 90px;
 }
 
 #pimg {
     display: flex;
+}
+
+#experience01 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#experience01 h3 {
+    color: white;
+    font-size: 60px;
+    font-family: var(--all-font);
+}
+
+#tempo {
+    display: flex;
+}
+
+#tempo p {
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: var(--all-font);   
+
+}
+
+#experience02 {
+    display: flex;
+    color: white;
+ 
+}
+
+#experience02 h3 {
+    color: white;
+    font-size: 60px;
+    font-family: var(--all-font);
+    
+
+}
+
+#tempo02 {
+    display: flex;
+}
+
+#tempo02 p {
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: var(--all-font);   
+}
+
+#projetos {
+    display: flex;
     
 }
 
+#projetos h4 {
+      position: absolute;
+    margin: 40px 0;
+    align-items: center;
+    left: 100px;
+    color: white;
+    font-size: 100px;
+    font-family: var(--all-font);
+}

@@ -13,7 +13,7 @@ body{
 
 /*header da pagina*/
 #header {
-    
+    width: 1000px;
     color: white;
     display: flex;
 }
@@ -98,15 +98,19 @@ body{
 
 #projetos {
     display: flex;
+     position: absolute;
     
 }
 
 #projetos h4 {
-      position: absolute;
     margin: 40px 0;
     align-items: center;
     left: 100px;
     color: white;
     font-size: 100px;
     font-family: var(--all-font);
+}
+
+#projetos p {
+    margin: 0 100px;
 }

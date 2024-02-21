@@ -1,7 +1,7 @@
 body{
     font-family: "Space Grotesk", sans-serif;
     background: #2b2b2b;
-
+    
 
 }
 
@@ -121,4 +121,23 @@ body{
 
 #ingrediente {
 
+}
+
+#totalite2 {
+    display: flex;
+    justify-content: center;
+}
+
+#totalite3 {
+    background:var(--color-footer-image);
+
+}
+
+#contact h5 {
+    
+    margin: 40px 0;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-family: var(--all-font);
 }

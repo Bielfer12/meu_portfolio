@@ -1,8 +1,6 @@
 body{
     font-family: "Space Grotesk", sans-serif;
     background: #2b2b2b;
-    
-
 }
 
 :root {
@@ -24,7 +22,7 @@ body{
     padding: 20px 90px;
 }
 
-#ionicon {
+#icones {
     display: flex;
     font-size: 30px;
     position: absolute;
@@ -32,34 +30,76 @@ body{
     padding: 22px 90px 0 90px;
 }
 
-#text {
+#icones ion-icon {
+    color:white; 
+    margin-left: 24px;
+}
+
+/*tela de inicio com contacte me, imgaem, e texto*/
+
+#imagem_perfil {
+    display: flex;
+}
+
+#text_inicio {
     width: 890px;
     color:white;
     margin: 100px 80px 0 90px;
 }
 
-#pimg {
-    display: flex;
+#text_inicio h2{
+    font-size: 100px; margin: 0;
+
 }
 
-#experience01 {
+#text_inicio u{
+    text-decoration-color:aqua;
+}
+
+#p_paragraph {
+    font-size: 20px; 
+    margin:50px 0 0 0;
+}
+
+#p_contact {
+    width: 140px; 
+    font-family:var(--all-font); 
+    font-weight:400;
+    margin-top: 100px; 
+    font-size: 16px;
+}
+
+#text_inicio span {
+    display: inline-block;
+    border-bottom: 2px solid aqua; 
+    padding-bottom: 8px;
+}
+
+#hr {
+    width:1400px; margin-top: 100px;
+}
+
+/*parte de cima das experiencias*/
+
+#experiencia_top {
     display: flex;
     color: white;
     justify-content: center;
     align-items: center;
 }
 
-#experience01 h3 {
+#experiencia_top h3 {
     color: white;
     font-size: 60px;
     font-family: var(--all-font);
+    margin: 40px 200px 20px 185px;
 }
 
-#tempo {
+#tempo_top {
     display: flex;
 }
 
-#tempo p {
+#tempo_top p {
     
     justify-content: center;
     align-items: center;
@@ -69,25 +109,49 @@ body{
 
 }
 
-#experience02 {
-    display: flex;
-    color: white;
- 
+#html {
+    margin:20px 200px 20px 115px
 }
 
-#experience02 h3 {
+#css {
+    margin:20px 200px 20px 150px
+}
+
+#js {
+    margin:20px 0 20px 100px
+}
+
+/*Parte de baixo das esperiencias*/
+
+#experiencia_botton {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+#experiencia_botton h3 {
     color: white;
     font-size: 60px;
     font-family: var(--all-font);
-    
-
 }
 
-#tempo02 {
+#java {
+    margin: 20px 200px 0 120px;
+}
+
+#angular {
+    margin: 20px 200px; 
+}
+
+#mysql {
+    margin: 20px 80px;
+}
+
+#tempo_botton {
     display: flex;
 }
 
-#tempo02 p {
+#tempo_botton p {
 
     justify-content: center;
     align-items: center;
@@ -95,58 +159,170 @@ body{
     font-size: 20px;
     font-family: var(--all-font);   
 }
+
+#exp1 {
+    margin:20px 200px 20px 115px
+}
+
+#exp2 {
+    margin:20px 200px 20px 150px
+}
+
+#exp3 {
+    margin:20px 100px 20px 100px
+}
+
+#hr_2 {
+    width:1400px; margin-top: 50px;
+}
+
+/*Parte aonde irá ficar exposto os projetos*/
 
 #projetos {
     display: flex;
-
 }
 
 #projetos h4 {
-    
-    margin: 40px 0;
+    margin: 40px 0 40px 110px;
     align-items: center;
     color: white;
     font-size: 100px;
     font-family: var(--all-font);
 }
 
-#totalite {
+/*dois projetos de cima(top)*/
+
+#projetos_top {
     display: flex;
     justify-content: center;
 }
 
-#paginadelinks{
-   
+#p_recipe {
+    margin: 5px 0 0 0; 
+    font-family: var(--all-font); 
+    font-size: 25px; 
+    font-weight: 600; 
+    color:white;
 }
 
-#ingrediente {
+#span_recipe {
+    font-family: var(--all-font); 
+    color: white;
+}
+
+#p_links {
+    margin: 5px 0 0 30px; 
+    font-family: var(--all-font); 
+    font-size: 25px; 
+    font-weight: 600; 
+    color:white;
+}
+
+#span_links {
+    margin-left: 30px; 
+    font-family: 
+    var(--all-font); 
+    color: white;
 
 }
 
-#totalite2 {
+#span_link {
+    margin-left: 20px; 
+    font-family: var(--all-font); 
+    color: white;
+}
+
+/*dois projetos de baixo(botton)*/
+
+#projetos_botton {
     display: flex;
     justify-content: center;
 }
 
-#totalite3 {
-    background:var(--color-footer-image);
-    display:flex;
+#login img {
+    margin: 40px 10px 0 0
 }
 
-#contact {
+#login p {
+    margin: 0 0 0 0; 
+    font-family: var(--all-font); 
+    font-size: 25px; 
+    font-weight: 600; 
+    color:white;
+}
+#span_logins {
+    font-family: var(--all-font);
+     color: white;
+}
 
+#span_login {
+    margin-left: 20px; 
+    font-family: var(--all-font); 
+    color: white;
+}
+
+#artorganizer img {
+    margin: 40px 10px 0 30px
+}
+
+#artorganizer p{
+    margin: 0 0 0 30px; 
+    font-family: var(--all-font); 
+    font-size: 25px; 
+    font-weight: 600; 
+    color:white;
+}
+
+#span_artorganizer1 {
+    margin-left: 30px; 
+    font-family: var(--all-font); 
+    color: white;
+}
+
+#span_artorganizer2 {
+    margin-left: 20px; 
+    font-family: var(--all-font); 
+    color: white;
+}
+
+/*aqui começa o footer da página*/
+
+#footer {
+    background-color: var(white);
+    display: flex;
 }
 
 #contact h5 {
-    margin:0;
+    margin:0 100px 0 0;
     align-items: center;
     color: white;
     font-size: 50px;
     font-family: var(--all-font);
 }
 
+#contact p{
+    font-size: 20px; 
+    color: white;
+}
+
 #input {
     display:flex;
     flex-direction: column; 
     margin: 0 0 100px 0;
+}
+
+#input1 {
+    width: 300px; 
+    height: 50px; 
+    margin: 10px 0 10px 0;
+}
+
+#input2 {
+    width: 300px;
+    height: 100px;
+    margin: 10px 0 10px 0;
+}
+
+#footer {
+    background-color: var(white);
 }

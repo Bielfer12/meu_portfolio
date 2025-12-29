@@ -36,7 +36,7 @@ Este projeto foi baseado no desafio do Frontend Mentor:
 
 ## 👨‍💻 Sobre Mim
 
-Sou [Seu Nome], desenvolvedor(a) frontend apaixonado(a) por criar interfaces modernas, acessíveis e funcionais. Estou sempre buscando evoluir minhas habilidades e aprender novas tecnologias.
+Sou Gabriel, desenvolvedor(a) frontend apaixonado(a) por criar interfaces modernas, acessíveis e funcionais. Estou sempre buscando evoluir minhas habilidades e aprender novas tecnologias.
 
 ## 📬 Contato
 

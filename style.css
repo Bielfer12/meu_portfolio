@@ -14,10 +14,11 @@ body{
     width: 1000px;
     color: white;
     display: flex;
+    flex-direction: row;
 }
 
 #header h1{
-    
+    justify-content: start;
     margin:0;
     padding: 20px 90px;
 }

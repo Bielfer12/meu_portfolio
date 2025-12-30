@@ -164,6 +164,10 @@ body{
     border-radius: 2px;
 }
 
+#callme-2:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
 .real-projects {
     display: flex;
     flex-direction: column;
@@ -197,6 +201,11 @@ body{
 .projects img {
     width: 100%;
     height: 70%;
+}
+
+.projects a {
+    color: var(--leter-white);
+    text-decoration: none;
 }
 
 .skill-info {
@@ -318,6 +327,10 @@ footer hr {
     padding-bottom: 8px;
     cursor: pointer;
     border-radius: 2px;
+}
+
+#callme-3:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .final {

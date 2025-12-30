@@ -21,29 +21,32 @@ body{
     font-family: var(--font);
     justify-content: space-between;
     position: relative;
-    height: 1000px;
-    
+    height: 62.5rem;
 }
 
 .right-home {
     background: var(--back-photo);
-    margin: 0 160px 0 0;
+    margin: 0 10rem 0 0;
     position: absolute;
     right: 0.2%;
 }
 
+#title2 {
+        display: none;
+}
+
 #profile{
     width: 100%;
-    height:  700px;
-    margin: 100px 0 0 0;
+    height:  43.75rem;
+    margin: 6.25rem 0 0 0;
 }
 
 .icon {
     display: flex;
     justify-content: flex-end;
-    margin: 40px 30px 0 0;
-    gap: 20px;
-    font-size: 40px;
+    margin: 2.5rem 1.875rem 0 0;
+    gap: 1.25rem;
+    font-size: 2.5rem;
 }
 
 .icon a{
@@ -59,13 +62,13 @@ body{
 }
 
 #title {
-    margin: 40px 0 0 5px;
+    margin: 2.5rem 0 0 0.3125rem;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    margin-top: 2px;
+    margin-top: 0.125rem;
 }
 
 #description {
@@ -90,11 +93,11 @@ body{
     align-items: center;
     font-weight:400;
     margin: 5% 0 0.5% 0;; 
-    font-size: 16px;
-    border-bottom: 2px solid aqua; 
-    padding-bottom: 8px;
+    font-size: 1rem;
+    border-bottom: 0.125rem solid aqua; 
+    padding-bottom: 0.5rem;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 0.125rem;
 }
 
 #callme:hover {
@@ -112,20 +115,20 @@ body{
 .col-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 300px;
-    margin: 0 100px 40px 200px;
+    gap: 18.75rem;
+    margin: 0 6.25rem 2.5rem 12.5rem;
 }
 
 .col-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 300px;
-    margin: 0 100px 40px 200px;
+    gap: 18.75rem;
+    margin: 0 6.25rem 2.5rem 12.5rem;
 }
 
 .skill h1 {
     font-size: 400%; 
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     color: #FFFFFF;
 }
 
@@ -156,12 +159,12 @@ body{
     align-items: center;
     height: 100%;
     margin: 0;
-    font-size: 16px;
-    border-bottom: 2px solid aqua; 
+    font-size: 1rem;
+    border-bottom: 0.125rem solid aqua; 
     color: var(--leter-white);
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 0.125rem;
 }
 
 #callme-2:hover {
@@ -174,13 +177,13 @@ body{
     align-items: center;
     justify-content: center;
     color: var(--leter-white);
-    margin: 100px 0 0 0;
+    margin: 6.25rem 0 0 0;
 }
 
 .lin-01 {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 40px;
+    gap: 2.5rem;
     width: 70%;
     height: 70%;
 }
@@ -188,7 +191,7 @@ body{
 .lin-02 {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 40px;
+    gap: 2.5rem;
     width: 70%;
     height: 70%;
 }
@@ -216,7 +219,7 @@ body{
 .skill-info {
   display: flex;        
   flex-direction: row;  
-  gap: 20px;            
+  gap: 1.25rem;            
   align-items: center;  
 }
 
@@ -239,7 +242,7 @@ footer hr {
 }
 
 .infos-footer {
-    margin: 0 170px 0 200px;
+    margin: 0 10.625rem 0 12.5rem;
 }
 
 .infos-footer h1{
@@ -255,28 +258,28 @@ footer hr {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .send-email {
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin: 100px 0 0 200px;
+    margin: 6.25rem 0 0 12.5rem;
 }
 
 
 #name {
     background-color: transparent;
-    border-radius: 0px;
+    border-radius: 0;
     border: none;
     outline: none;
     font-family: var(--font);
     font-size: 130%;
     color: var(--leter-white);
-    border-bottom: 1px solid var(--sub-cian);
-    margin: 10px;
-    padding: 100px 10px 20px 20px;
+    border-bottom: 0.0625rem solid var(--sub-cian);
+    margin: 0.625rem;
+    padding: 6.25rem 0.625rem 1.25rem 1.25rem;
     resize: none;
     overflow: hidden;
     text-transform: uppercase;
@@ -284,15 +287,15 @@ footer hr {
 
 #email {
     background-color: transparent;
-    border-radius: 0px;
+    border-radius: 0;
     border: none;
     outline: none;
     font-family: var(--font);
     font-size: 130%;
     color: var(--leter-white);
-    border-bottom: 1px solid var(--sub-cian);
-    margin: 10px;
-    padding: 10px 10px 20px 20px;
+    border-bottom: 0.0625rem solid var(--sub-cian);
+    margin: 0.625rem;
+    padding: 0.625rem 0.625rem 1.25rem 1.25rem;
     resize: none;
     overflow: hidden;
     text-transform: uppercase;
@@ -300,15 +303,15 @@ footer hr {
 
 #mensage {
     background-color: transparent;
-    border-radius: 0px;
+    border-radius: 0;
     border: none;
     outline: none;
     font-family: var(--font);
     font-size: 130%;
     color: var(--leter-white);
-    border-bottom: 1px solid var(--sub-cian);
-    margin: 10px;
-    padding: 10px 10px 140px 20px;
+    border-bottom: 0.0625rem solid var(--sub-cian);
+    margin: 0.625rem;
+    padding: 0.625rem 0.625rem 8.75rem 1.25rem;
     resize: none;
     overflow: hidden;
     text-transform: uppercase;
@@ -320,13 +323,13 @@ footer hr {
     font-family:var(--sub-cian); 
     align-items: center;
     height: 100%;
-    margin: 40px 10px 10px 73%;
+    margin: 2.5rem 0.625rem 0.625rem 73%;
     font-size: 130%;
-    border-bottom: 2px solid aqua; 
+    border-bottom: 0.125rem solid aqua; 
     color: var(--leter-white);
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 0.125rem;
 }
 
 #callme-3:hover {
@@ -342,18 +345,424 @@ footer hr {
 
 .final h1 {
     font-size: 200%;
-    margin: 21.4px 0 20px 20px;
+    margin: 1.3375rem 0 1.25rem 1.25rem;
 }
 
 .icon-2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 21.4px 20px 20px 0;
-    gap: 20px;
-    font-size: 40px;
+    margin: 1.3375rem 1.25rem 1.25rem 0;
+    gap: 1.25rem;
+    font-size: 2.5rem;
 }
 
 .icon-2 a{
     color: var(--leter-white);
+}
+
+/* TABLETES E LAPTOPS */
+@media (max-width: 1024px) {
+
+    .home {
+        height: 45.5rem;
+    }
+
+    .right-home {
+        margin: 0 10rem 0 0;
+        right: -15.6%;
+        width: 40%;
+        height: 70%;
+    }
+
+    #title2 {
+        display: none;
+    }
+
+    #profile{
+        width: 100%;
+        height:  100%;
+        margin: 1.25rem 0 0 0;
+    }   
+
+    .left-home{
+        left: 7%;
+        width: 70%;
+    }
+
+    #title {
+        margin: 2.5rem 0 0 0.3125rem;
+    }
+
+    .info {
+        margin-top: 5rem;
+    }
+
+    #description {
+        font-size: 400%;
+        margin-bottom: 5%;
+    }
+
+    #subdesc {
+        font-size: 150%;
+        margin: 0 0 0.5% 0;
+        font-size: 140%;
+    }
+
+    #callme {
+        width: 20%;
+        font-weight:400;
+        margin: 5% 0 0.5% 0;; 
+        font-size: 1.5rem;
+        border-bottom: 0.125rem solid aqua; 
+        padding-bottom: 0.5rem;
+        border-radius: 0.125rem;
+    }
+
+    #callme:active, 
+    #callme-2:active, 
+    #callme-3:active {
+        filter: brightness(0.7); 
+        transform: scale(0.98); 
+        transition: filter 0.1s ease; 
+    }
+
+    .stuffs hr {
+        width: 80%;
+        margin: 0 0 0 10%;
+    }
+
+    .col-1 {
+        gap: 10.75rem;
+        margin: 0 6.25rem 2.5rem 7.5rem;
+    }
+
+    .col-2 {
+        gap: 9rem;
+        margin: 0 6.25rem 2.5rem 7.5rem;
+    }
+
+    .skill h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    .skill p {
+        width: 120%;
+        font-size: 1.1rem;
+    }
+
+    .project-head{
+        width: 100%;
+        gap: 20%;
+    }
+
+    .project-head h1{
+        font-size: 600%;
+        color: var(--leter-white);
+        
+    }
+
+    #callme-2{
+        height: 100%;
+        margin: 0;
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+        border-radius: 0.125rem;
+    }
+
+    .projects {
+        margin-bottom: 5rem;
+    }
+
+    footer {
+        width: 100%;
+        height: 50%;
+    }
+
+    .infos-footer {
+        margin: 0 10.625rem 0 12.5rem;
+    }
+
+    .infos-footer h1{
+        font-size: 700%;
+        margin: 0;
+    }
+
+    .infos-footer p{
+        font-size: 140%;
+    }
+
+    .top-footer {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 3.125rem;
+    }
+
+    .send-email {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0;
+    }
+
+    #name {
+        padding-top: 10px;
+    }
+
+    #callme-3 {
+        width: 20%;
+    }
+
+}
+
+/* CELULARES GRANDES E TABLETS EM PÉ*/
+@media (max-width: 768px) {
+
+    body {
+        background: var(--back-photo);
+    }
+
+   .home {
+        height: 75.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: -30%;
+        top: 15%;
+    }
+
+    .right-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 11rem 0 0;
+        right: -35.4%;
+        width: 55%;
+        height: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
+        
+    }
+
+    .icon {
+        display: flex;
+        justify-content: flex-end;
+        margin: 1rem 1rem 1rem 1rem;
+        gap: 1.25rem;
+        font-size: 2.5rem;
+    }
+
+    #title2 {
+        margin: 1rem;
+        display: block;
+    }
+
+    #profile{
+        width: 100%;
+        height:  100%;
+        margin: 0 0 0 0;
+    }   
+
+    #title {
+        display: none;
+    }
+
+    .left-home{
+        top: 55%;    
+        left: 34%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;   /* Empilha os itens um embaixo do outro */
+        align-items: center;      /* Centraliza horizontalmente cada linha de texto */
+        justify-content: center;  /* Centraliza verticalmente no espaço disponível */
+        text-align: center;       /* Garante que as linhas de texto fiquem alinhadas ao meio */
+    
+        width: 100%;              /* Garante que o container use a largura total para alinhar */
+        margin: 0 auto;
+    }
+
+    #title {
+        margin: 2.5rem 0 0 0.3125rem;
+    }
+
+    .info {
+        margin-top: 5rem;
+    }
+
+    #description {
+        font-size: 350%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+    #subdesc {
+        margin: 0 0 0.5% 0;
+        font-size: 100%;
+    }
+
+    #callme {
+        width: 20%;
+        font-weight:400;
+        margin: 5% 0 0.5% 0;; 
+        font-size: 1.0rem;
+        border-bottom: 0.125rem solid aqua; 
+        padding-bottom: 0.5rem;
+        border-radius: 0.125rem;
+        margin-left: 12rem;
+        
+    }
+
+    #callme:active, 
+    #callme-2:active, 
+    #callme-3:active {
+        filter: brightness(0.7); 
+        transform: scale(0.98); 
+        transition: filter 0.1s ease; 
+    }
+
+    .stuffs hr {
+        width: 87%;
+        margin: 0 0 0 10%;
+    }
+
+    .col-1 {
+        display: grid;
+        
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 8.75rem;
+        margin: 0 3.25rem 2.5rem 6.5rem;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 6.75rem;
+        margin: 0 3.25rem 2.5rem 6.5rem;
+    }
+
+    .skill h1 {
+        font-size: 400%; 
+        margin-bottom: 0.5rem;
+        color: #FFFFFF;
+    }
+
+    .skill p {
+        color: #919191; /* Cor cinza para a experiência */
+        font-size: 1.1rem;
+    }
+
+    .skill h1 {
+        font-size: 300%;
+        margin-bottom: 0.5rem;
+    }
+
+    .skill p {
+        width: 120%;
+        font-size: 1.1rem;
+    }
+
+    .project-head{
+        width: 100%;
+        gap: 20%;
+    }
+
+    .project-head h1{
+        font-size: 500%;
+        color: var(--leter-white);
+        margin-left: 4rem;
+
+    }
+
+    #callme-2{
+        height: 100%;
+        margin: 0;
+        font-size: 2rem;
+        padding-bottom: 0.5rem;
+        border-radius: 0.125rem;
+    }
+
+    .real-projects {
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+
+    .projects {
+        margin-bottom:0 ;
+    }
+
+    .lin-01 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lin-02 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lin-02 img {
+        height: 50%;
+    }
+
+    footer {
+        width: 100%;
+        height: 50%;
+        background: var(--back-photo);
+    }
+
+    .top-footer {
+        margin-left: 2rem;
+    }
+
+    .infos-footer {
+        margin: 0 10.625rem 0 12.5rem;
+    }
+
+    .infos-footer h1{
+        font-size: 700%;
+        margin: 0;
+    }
+
+    .infos-footer p{
+        font-size: 140%;
+    }
+
+    .top-footer {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 3.125rem;
+    }
+
+    .send-email {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0;
+    }
+
+    #name {
+        padding-top: 10px;
+    }
+
+    #callme-3 {
+        width: 26%;
+    }
+
+    footer hr{
+       margin-left: 7rem; 
+    }
+
+    .final {
+        margin-left: 4rem;
+    }
+
+    .icon-2 {
+
+    }
+}
+
+/* CELULARES PEQUENOS */
+@media (max-width: 480px) {
+
 }

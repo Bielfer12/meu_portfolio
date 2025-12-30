@@ -1,114 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<thead>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-    </style>
-    <link rel="stylesheet" href="main.js">
-    <link rel="stylesheet" href="style.css">
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GC</title>
-</thead>
-<tbody>
-   
-    <div id="header">
-        <h1>gabrielcasa</h1>
-        <div id="icones">
-            <a href="https://github.com/Bielfer12" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
-            </a>    
-            <a href="https://www.linkedin.com/in/gabriel-fernandes-56416b262/" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-            <a href="https://www.instagram.com/gabriiel.casagrande/" target="_blank">
-                <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-            <a href="" src="#" target="_blank"></a>
-                <ion-icon name="logo-whatsapp"></ion-icon>
-            </a>
+    <link rel="stylesheet" href="./style.css">
+    <title>Casagrande</title>
+</head>
+<body>
+    <header>
+        <div class="home">
+            <div class="right-home">
+                <div class="icon">
+                    <a href="https://github.com/Bielfer12" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gabriel-fernandes-56416b262/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="" target="_blank">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </div>
+                <img id="profile" src="./assets/perfil/Gabriel-removebg-preview.png" alt="foto perfil">
+            </div>
+            <div class="left-home">
+                <h1 id="title">gabrielcasa</h1>
+                <div class="info">
+                    <h1 id="description">Nice to meet you! <br> I'm <u>Gabriel Casa.</u></h1>
+                    <p id="subdesc">Nascido no Brasil mais especificamente em Içara, SC<br> sou um desenvolvedor front-end, sempre procurando <br>mais conhecimento nesse meio, para crescer<br> profissionalmente e pessoalmente.</p>
+                    <p id="callme"><span>CONTATE ME<span></p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div id="imagem_perfil">
-        <div id="text_inicio">
-            <h2>Nice to meet you!<br>I'm <u>Gabriel Casa</u>.</h2>
-                <p id="p_paragraph">Nascido no Brasil mais especificamente em Içara, SC<br> sou um desenvolvedor front-end, sempre procurando <br>mais conhecimento nesse meio, para crescer<br> profissionalmente e pessoalmente.</p>
-                <p id="p_contact"><span>CONTATE ME<span></p>
+    </header>
+    <main>
+        <div class="stuffs">
+            <hr>
+            <div class="knowledge-all">
+                <div class="col-1">
+                    <div class="skill">
+                        <h1>HTML</h1>
+                        <p>1 Mês de Experiencia</p>
+                    </div>
+                    <div class="skill">
+                        <h1>CSS</h1>
+                        <p>1 Mês de Experiencia</p>
+                    </div>
+                    <div class="skill">
+                        <h1>JS</h1>
+                        <p>1 Mês de Experiencia</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="skill">
+                        <h1>ADVPL</h1>
+                        <p>1 ano de Experiencia</p>
+                    </div>
+                    <div class="skill">
+                        <h1>FIGMA</h1>
+                        <p>6 Mêses de Experiencia</p>
+                    </div>
+                </div>
+                <!-- <h1></h1>
+                <p>1 Mês de Experiencia</p> -->
+                <div class="projects-all">
+                    <div class="project-head">
+                        <h1>Projects</h1>
+                        <p id="callme-2"><span>CONTATE ME<span></p>
+                    </div>
+                    <div class="real-projects">
+                        <div class="lin-01">
+                            <div class="projects">
+                                <img src="" alt="">
+                                <h2></h2>
+                                <p></p>
+                            </div>
+                            <div class="projects">
+                                <img src="" alt="">
+                                <h2></h2>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="lin-02">
+                            <div class="projects">
+                                <img src="" alt="">
+                                <h2></h2>
+                                <p></p>
+                            </div>
+                            <div class="projects">
+                                <img src="" alt="">
+                                <h2></h2>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="img"> 
-            <img src="./assets/Gabriel-removebg-preview.png" alt="img" style="background-color:var(--color-footer-image); margin:120px 0 0 0; border: radius 20px;">
-        </div>
-    </div>
-        <hr id="hr">
-    <div id="experiencia_top">
-        <h3>HTML</h3>
-        <H3>CSS</H3>
-        <H3>JavaScript</H3>
-        </div>
-    <div id="tempo_top">
-        <P id="html">1 Mês de experiência</P>
-        <P id="css">1 Mês de experiência</P>
-        <P id="js">1 Mês de experiência</P>
-    </div>
-    <div id="experiencia_botton">
-        <h3 id="java">JAVA</h3>
-        <H3 id="angular" >Angular</H3>
-        <h3 id="mysql">MySQL</h3>
-    </div>
-    <div id="tempo_botton">
-        <P id="exp1">1 Mês de experiência</P>
-        <P id="exp2">0 Mês de experiência</P>
-        <P id="exp3">3 Mês de experiência</P>
-    </div>
-    <hr id="hr_2">
-    <div id="projetos">
-        <h4>Projetos</h4>
-    </div>
-    <div id="projetos_top">
-        <div id="ingrediente">
-            <img src="./assets/recipe.png" alt="ingediente de omelete">
-                <p id="p_recipe">RECEITA DE OMELETE</p>
-                <span id="span_recipe">HTML </span>
-                <span id="span_link">CSS </span>
-    </div>
-    <div id="paginadelinks">
-        <img src="./assets/Cover.jpg" alt="imagem projeto de pagina de links" style="margin-left: 30px;">
-        <p id="p_links">PÁGINA DE LINKS</p>
-        <span id="span_links">HTML </span>
-        <span id="span_link">CSS </span>
-        <span id="span_link">JS </span>
-    </div>
-</div>
-<div id="projetos_botton">
-    <div id="login">
-        <img src="./assets/login.png" alt="imagem projeto de login">
-        <p>LOGIN EM PRODUÇÃO</p>
-        <span id="span_logins">HTML </span>
-        <span id="span_login">CSS </span>
-    </div>
-    <div id="artorganizer">
-        <img src="./assets/artorganizer.png" alt="imagem projeto de biblioteca para artigos">
-        <p>ARTOGRANIZER</p>
-        <span id="span_artorganizer1">HTML </span>
-        <span id="span_artorganizer2">CSS </span>
-        <span id="span_artorganizer2">JS </span>
-    </div>
-</div>
-<footer id="footer">
-        <div id="contact">
-            <h5>Me Contate</h5>
-            <P>Se quiser conversar comigo, tanto a trabalho <br>ou para esclarecer duvidas, bote por aqui, <br>irei te responder assim que possivel</P>
-        </div>
-        <div id="input">
-            <input id="input1" type="text">
-            <input id="input1" type="text">
-            <input id="input2" type="text">
-            <button>ENVIAR</button>
-        </div>
-    </div>
-</footer>
-            
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</tbody>
+    </main>
+    <footer>
+
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
 </html>

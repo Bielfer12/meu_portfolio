@@ -1,329 +1,167 @@
-body{
-    font-family: "Space Grotesk", sans-serif;
-    background: #2b2b2b;
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 :root {
-    --all-font: "Space Grotesk", sans-serif;
-    --color-page:#2b2b2b;
-    --color-footer-image:#444444;
+    --back-dark: #151515;
+    --back-photo: #242424;
+    --leter-white: #FFFFFF;
+    --sub-cian:#00FFFF;
+    --font: "Space Grotesk", sans-serif;
+
 }
 
-/*header da pagina*/
-#header {
-    width: 1000px;
-    color: white;
+body{
+    background: var(--back-dark);
+    margin: 0;
+}
+
+.home {
     display: flex;
     flex-direction: row;
+    color: var(--leter-white);
+    font-family: var(--font);
+    justify-content: space-between;
+    position: relative;
+    height: 1000px;
+    
 }
 
-#header h1{
-    justify-content: start;
-    margin:0;
-    padding: 20px 90px;
-}
-
-#icones {
-    display: flex;
-    font-size: 30px;
+.right-home {
+    background: var(--back-photo);
+    margin: 0 160px 0 0;
     position: absolute;
-    right:100px;
-    padding: 22px 90px 0 90px;
+    right: 0.2%;
 }
 
-#icones ion-icon {
-    color:white; 
-    margin-left: 24px;
+#profile{
+    width: 100%;
+    height:  700px;
+    margin: 100px 0 0 0;
 }
 
-/*tela de inicio com contacte me, imgaem, e texto*/
-
-#imagem_perfil {
+.icon {
     display: flex;
+    justify-content: flex-end;
+    margin: 40px 30px 0 0;
+    gap: 20px;
+    font-size: 40px;
 }
 
-#text_inicio {
-    width: 890px;
-    color:white;
-    margin: 100px 80px 0 90px;
+.icon a{
+    color: var(--leter-white);
 }
 
-#text_inicio h2{
-    font-size: 100px; margin: 0;
+/* LEFT HOME */
 
+.left-home{
+    position: absolute;
+    overflow: hidden;
+    left: 7%;
 }
 
-#text_inicio u{
-    text-decoration-color:aqua;
+#title {
+    margin: 40px 0 0 5px;
 }
 
-#p_paragraph {
-    font-size: 20px; 
-    margin:50px 0 0 0;
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
 }
 
-#p_contact {
-    width: 140px; 
-    font-family:var(--all-font); 
+#description {
+    font-size: 850%;
+    margin-bottom: 5%;
+}
+
+.info u{
+    text-decoration-color: var(--sub-cian);
+}
+
+#subdesc {
+    font-size: 150%;
+    margin: 0 0 0.5% 0;
+}
+
+#callme {
+    display: flex;
+    justify-content: center;
+    width: 9%;
+    font-family:var(--sub-cian); 
+    align-items: center;
     font-weight:400;
-    margin-top: 100px; 
+    margin: 5% 0 0.5% 0;; 
     font-size: 16px;
-}
-
-#text_inicio span {
-    display: inline-block;
     border-bottom: 2px solid aqua; 
     padding-bottom: 8px;
+    cursor: pointer;
+    border-radius: 2px;
 }
 
-#hr {
-    width:1400px; margin-top: 100px;
+#callme:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
 
-/*parte de cima das experiencias*/
+.stuffs {
+    font-family: var(--font);
+}
 
-#experiencia_top {
+.stuffs hr {
+    width: 90%;
+}
+
+.col-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 300px;
+    margin: 0 100px 40px 200px;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 300px;
+    margin: 0 100px 40px 200px;
+}
+
+.skill h1 {
+    font-size: 400%; 
+    margin-bottom: 8px;
+    color: #FFFFFF;
+}
+
+.skill p {
+    color: #919191; /* Cor cinza para a experiência */
+    font-size: 1.1rem;
+}
+
+.project-head{
     display: flex;
-    color: white;
+    flex-direction: row;
+    width: 100%;
+    font-family: var(--font);
     justify-content: center;
+    gap: 50%;
+}
+
+.project-head h1{
+    font-size: 600%;
+    color: var(--leter-white);
+}
+
+.project-head p {
     align-items: center;
 }
 
-#experiencia_top h3 {
-    color: white;
-    font-size: 60px;
-    font-family: var(--all-font);
-    margin: 40px 200px 20px 185px;
-}
-
-#tempo_top {
+#callme-2{
     display: flex;
-}
-
-#tempo_top p {
-    
-    justify-content: center;
+    font-family:var(--sub-cian); 
     align-items: center;
-    color: white;
-    font-size: 20px;
-    font-family: var(--all-font);   
-
-}
-
-#html {
-    margin:20px 200px 20px 115px
-}
-
-#css {
-    margin:20px 200px 20px 150px
-}
-
-#js {
-    margin:20px 0 20px 100px
-}
-
-/*Parte de baixo das esperiencias*/
-
-#experiencia_botton {
-    display: flex;
-    color: white;
-    align-items: center;
-}
-
-#experiencia_botton h3 {
-    color: white;
-    font-size: 60px;
-    font-family: var(--all-font);
-}
-
-#java {
-    margin: 20px 200px 0 120px;
-}
-
-#angular {
-    margin: 20px 200px; 
-}
-
-#mysql {
-    margin: 20px 80px;
-}
-
-#tempo_botton {
-    display: flex;
-}
-
-#tempo_botton p {
-
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    font-family: var(--all-font);   
-}
-
-#exp1 {
-    margin:20px 200px 20px 115px
-}
-
-#exp2 {
-    margin:20px 200px 20px 150px
-}
-
-#exp3 {
-    margin:20px 100px 20px 100px
-}
-
-#hr_2 {
-    width:1400px; margin-top: 50px;
-}
-
-/*Parte aonde irá ficar exposto os projetos*/
-
-#projetos {
-    display: flex;
-}
-
-#projetos h4 {
-    margin: 40px 0 40px 110px;
-    align-items: center;
-    color: white;
-    font-size: 100px;
-    font-family: var(--all-font);
-}
-
-/*dois projetos de cima(top)*/
-
-#projetos_top {
-    display: flex;
-    justify-content: center;
-}
-
-#p_recipe {
-    margin: 5px 0 0 0; 
-    font-family: var(--all-font); 
-    font-size: 25px; 
-    font-weight: 600; 
-    color:white;
-}
-
-#span_recipe {
-    font-family: var(--all-font); 
-    color: white;
-}
-
-#p_links {
-    margin: 5px 0 0 30px; 
-    font-family: var(--all-font); 
-    font-size: 25px; 
-    font-weight: 600; 
-    color:white;
-}
-
-#span_links {
-    margin-left: 30px; 
-    font-family: 
-    var(--all-font); 
-    color: white;
-
-}
-
-#span_link {
-    margin-left: 20px; 
-    font-family: var(--all-font); 
-    color: white;
-}
-
-/*dois projetos de baixo(botton)*/
-
-#projetos_botton {
-    display: flex;
-    justify-content: center;
-}
-
-#login img {
-    margin: 40px 10px 0 0
-}
-
-#login p {
-    margin: 0 0 0 0; 
-    font-family: var(--all-font); 
-    font-size: 25px; 
-    font-weight: 600; 
-    color:white;
-}
-#span_logins {
-    font-family: var(--all-font);
-     color: white;
-}
-
-#span_login {
-    margin-left: 20px; 
-    font-family: var(--all-font); 
-    color: white;
-}
-
-#artorganizer img {
-    margin: 40px 10px 0 30px
-}
-
-#artorganizer p{
-    margin: 0 0 0 30px; 
-    font-family: var(--all-font); 
-    font-size: 25px; 
-    font-weight: 600; 
-    color:white;
-}
-
-#span_artorganizer1 {
-    margin-left: 30px; 
-    font-family: var(--all-font); 
-    color: white;
-}
-
-#span_artorganizer2 {
-    margin-left: 20px; 
-    font-family: var(--all-font); 
-    color: white;
-}
-
-/*aqui começa o footer da página*/
-
-#footer {
-    background-color: var(white);
-    display: flex;
-}
-
-#contact h5 {
-    margin:0 100px 0 0;
-    align-items: center;
-    color: white;
-    font-size: 50px;
-    font-family: var(--all-font);
-}
-
-#contact p{
-    font-size: 20px; 
-    color: white;
-}
-
-#input {
-    display:flex;
-    flex-direction: column; 
-    margin: 0 0 100px 0;
-}
-
-#input1 {
-    width: 300px; 
-    height: 50px; 
-    margin: 10px 0 10px 0;
-}
-
-#input2 {
-    width: 300px;
-    height: 100px;
-    margin: 10px 0 10px 0;
-}
-
-#footer {
-    background-color: var(white);
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    border-bottom: 2px solid aqua; 
+    color: var(--leter-white);
+    padding-bottom: 8px;
+    cursor: pointer;
+    border-radius: 2px;
 }

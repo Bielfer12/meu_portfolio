@@ -217,4 +217,130 @@ footer {
     background:var(--back-photo);
     width: 100%;
     height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    color: var(--leter-white)
+}
+
+footer hr {
+    width: 79%;
+}
+
+.infos-footer {
+    margin: 0 170px 0 200px;
+}
+
+.infos-footer h1{
+    font-size: 700%;
+    margin: 0;
+}
+
+.infos-footer p{
+    font-size: 140%;
+}
+
+.top-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.send-email {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 100px 0 0 200px;
+}
+
+
+#name {
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    font-family: var(--font);
+    font-size: 130%;
+    color: var(--leter-white);
+    border-bottom: 1px solid var(--sub-cian);
+    margin: 10px;
+    padding: 100px 10px 20px 20px;
+    resize: none;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+#email {
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    font-family: var(--font);
+    font-size: 130%;
+    color: var(--leter-white);
+    border-bottom: 1px solid var(--sub-cian);
+    margin: 10px;
+    padding: 10px 10px 20px 20px;
+    resize: none;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+#mensage {
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    font-family: var(--font);
+    font-size: 130%;
+    color: var(--leter-white);
+    border-bottom: 1px solid var(--sub-cian);
+    margin: 10px;
+    padding: 10px 10px 140px 20px;
+    resize: none;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+#callme-3 {
+    width: 23%;
+    display: flex;
+    font-family:var(--sub-cian); 
+    align-items: center;
+    height: 100%;
+    margin: 40px 10px 10px 73%;
+    font-size: 130%;
+    border-bottom: 2px solid aqua; 
+    color: var(--leter-white);
+    padding-bottom: 8px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 79%;
+}
+
+.final h1 {
+    font-size: 200%;
+    margin: 21.4px 0 20px 20px;
+}
+
+.icon-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 21.4px 20px 20px 0;
+    gap: 20px;
+    font-size: 40px;
+}
+
+.icon-2 a{
+    color: var(--leter-white);
 }

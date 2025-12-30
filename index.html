@@ -116,13 +116,35 @@
         </div>
     </main>
     <footer>
-        <div class="infos-footer">
-            <h1>Contato</h1>
-            <p>Eu gostaria muito de conversar com você, falar sobre projetos estudos conhecimentos e te conhecer, se quiser pode me contatar por aqui, vai ser uma honra de conhecer, até mais!!</p>
+        <div class="top-footer">
+            <div class="infos-footer">
+                <h1>Contato</h1>
+                <p>Eu gostaria muito de conversar com você, falar sobre projetos estudos conhecimentos e te conhecer, se quiser pode me contatar por aqui, vai ser uma honra conversar contigo, até mais!!</p>
+            </div>
+            <div class="send-email">
+                <textarea id="name" placeholder="Nome" (input)="handleInput($event)"rows="1"></textarea>
+                <textarea id="email" placeholder="Email" (input)="handleInput($event)"rows="1"></textarea>
+                <textarea id="mensage" placeholder="Mensagem" (input)="handleInput($event)"rows="1"></textarea>
+                <p id="callme-3"><span>CONTATE ME<span></p>
+            </div>
         </div>
-        <div class="send-email">
-        </div>
+        <hr>
         <div class="final">
+            <h1>gabrielcasa</h1>
+            <div class="icon-2">
+                    <a href="https://github.com/Bielfer12" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gabriel-fernandes-56416b262/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="" target="_blank">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </div>
         </div>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
